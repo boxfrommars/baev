@@ -1,0 +1,162 @@
+body {
+    color: black;
+    background: white;
+}
+
+ol, ul {
+    list-style: none;
+    margin: 0;
+}
+
+/* Custom */
+h1, h2 {
+    font-size: 20px;
+    margin: 0 0 .5em 0;
+    font-weight: normal;
+    letter-spacing: -1px;
+    line-height: 12px;
+}
+
+html {
+    font-size: 10px;
+    background: #eee;
+    width: 100%;
+}
+
+body {
+    background: #eee;
+    color: #333;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.block {
+    width: 270px;
+    float: left;
+    display: inline;
+    margin-left: 10px;
+    margin-top: 50px;
+    background: #eee url('../images/man_1.jpg') no-repeat 50% 100%;
+}
+
+.block-in {
+    padding: 15px 10px 15px 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin-bottom: 400px;
+}
+
+#wrap {
+    background: #eee url('../images/man_1.jpg') no-repeat 50% 100%;
+}
+
+#picture {
+    background: #eee url('../images/man_2.jpg') no-repeat 50% 100%;
+}
+
+#about {
+    background: #eee url('../images/man_3.jpg') no-repeat 50% 100%;
+}
+
+#add {
+    background: #eee url('../images/man_4.jpg') no-repeat 50% 100%;
+}
+
+a {
+    color: #0187C5;
+}
+
+a:hover {
+    color: #34a7C5;
+}
+
+#navigation {
+    text-align: right;
+    padding-bottom: 1em;
+}
+
+#navigation li {
+    display: inline;
+    padding-left: 10px;
+}
+
+.author {
+    text-align: right;
+    color: #5AB300;
+    padding-top: 10px;
+    display: block;
+}
+
+.topic {
+    padding: 15px 0 10px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.topic p {
+    margin: 0;
+}
+
+.image {
+    width: 120px;
+    height: 80px;
+    border: 1px solid #aaa;
+    margin: 20px auto 0;
+
+}
+
+.footer {
+    padding-top: 5px;
+    text-align: right;
+}
+
+.developers {
+    color: #ccc;
+}
+
+.functions {
+    float: left;
+}
+
+input, textarea {
+    border: 1px solid #ccc;
+    width: 50%;
+    margin-bottom: 1em;
+}
+
+input.last {
+    margin-bottom: 0;
+}
+
+#note {
+    width: 240px;
+}
+
+label {
+    display: block;
+    padding-bottom: 4px;
+    font-weight: bold;
+}
+
+textarea {
+    width: 248px;
+    height: 120px;
+}
+
+.editthis {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+
+@media (min-width: 768px) {
+    .block {
+        margin-bottom: -400px;
+        display: none;
+    }
+
+    #wrap {
+        display: block;
+    }
+}
